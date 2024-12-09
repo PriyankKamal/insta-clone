@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  height: 100vh;
+  /* background-color: rgb(17, 17, 17); */
+  width: 100%;
+  display: flex;
+  overflow-x: hidden;
+}
+
+.left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.left img {
+  height: 628px;
+  margin-bottom: 70px;
+  object-fit: cover;
+}
+
+.right {
+  width: 50%;
+  height: 100%;
+  /* border: 2px solid red; */
+}
+
+.upper {
+  height: 427px;
+  width: 350px;
+  margin-left: 30px;
+  margin-top: 48px;
+  box-shadow: 0px 0px 2px gray;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-direction: column;
+  /* position: relative; */
+
+  box-shadow: 5px 7px 12px 1px mediumpurple;
+
+  background-image: linear-gradient(
+    45deg,
+    hsl(200deg 20% 91%) 0%,
+    hsl(207deg 30% 91%) 8%,
+    hsl(214deg 39% 90%) 17%,
+    hsl(221deg 45% 90%) 25%,
+    hsl(228deg 50% 89%) 33%,
+    hsl(236deg 52% 88%) 42%,
+    hsl(245deg 53% 87%) 50%,
+    hsl(254deg 52% 85%) 58%,
+    hsl(263deg 54% 84%) 67%,
+    hsl(271deg 64% 84%) 75%,
+    hsl(278deg 75% 84%) 83%,
+    hsl(283deg 85% 83%) 92%,
+    hsl(288deg 95% 83%) 100%
+  );
+}
+
+.upper img {
+  height: 67px;
+  /* background-color: blue; */
+  /* width: 80%; */
+  margin-top: 35px;
+  /* width: 90px; */
+  object-fit: cover;
+  /* position: absolute;
+    left: 24%; */
+  /* left: 50px; */
+  /* margin: auto; */
+  /* width: 33%; */
+  margin: 35px 85px;
+}
+
+.form-reg {
+  margin: 0px 40px;
+  /* margin-top: -17px; */
+  gap: 6px;
+}
+.form-reg button {
+  /* background-color: black; */
+  background-color: hsl(240, 70%, 30%);
+
+  color: white;
+  font-weight: 600;
+}
+.form-reg button:hover {
+  background-color: hsl(240, 54%, 38%);
+
+  color: white;
+  font-weight: 600;
+}
+
+.form-reg input {
+  padding: 7px;
+  font-size: 13px;
+  border-radius: 3px;
+  /* border: 1px solid gray; */
+  background-color: #fbf9f9;
+  border: none;
+}
+.border-adj {
+  margin: 0px 19px;
+  width: 100px;
+  border-bottom: 1px solid rgb(208, 205, 205);
+}
+
+.or-line {
+  margin-top: 25px;
+}
+
+.fb {
+  margin: 0px auto;
+  margin-top: 25px;
+  gap: 6px;
+  width: 258px;
+  background-color: hsl(240, 70%, 30%);
+}
+.fb:hover {
+  background-color: #113991;
+}
+.fb img {
+  object-fit: cover;
+  height: 21px;
+  width: 21px;
+  margin: 0;
+  border-radius: 2px;
+}
+
+.fb p {
+  margin-bottom: 0;
+  color: white;
+}
+
+.login {
+  color: #385185;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.forgot {
+  font-size: 13px;
+}
+.or {
+  font-size: 12px;
+  font-weight: 600;
+}
+.mid {
+  /* border: 2px solid brown; */
+  height: 62px;
+  width: 350px;
+  margin-left: 30px;
+  margin-top: 12px;
+  box-shadow: 0px 0px 2px gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  box-shadow: 5px 7px 12px 1px mediumpurple;
+
+  background-image: linear-gradient(
+    45deg,
+    hsl(200deg 20% 91%) 0%,
+    hsl(207deg 30% 91%) 8%,
+    hsl(214deg 39% 90%) 17%,
+    hsl(221deg 45% 90%) 25%,
+    hsl(228deg 50% 89%) 33%,
+    hsl(236deg 52% 88%) 42%,
+    hsl(245deg 53% 87%) 50%,
+    hsl(254deg 52% 85%) 58%,
+    hsl(263deg 54% 84%) 67%,
+    hsl(271deg 64% 84%) 75%,
+    hsl(278deg 75% 84%) 83%,
+    hsl(283deg 85% 83%) 92%,
+    hsl(288deg 95% 83%) 100%
+  );
+}
+.mid p {
+  margin-bottom: 0;
+  font-size: 14px;
+}
+.sign-up {
+  font-weight: 600;
+  color: hsl(240, 70%, 30%);
+}
+.down1 {
+  margin-top: 12px;
+  margin-left: 30px;
+  /* height: 62px; */
+  width: 350px;
+  /* box-shadow: 0px 0px 2px gray; */
+}
+
+.down1 h4 {
+  font-size: 15px;
+  font-weight: 400;
+}
+.down2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 30px;
+  /* height: 62px; */
+  width: 350px;
+  /* box-shadow: 0px 0px 2px gray; */
+  gap: 7px;
+}
+
+.down2 a img {
+  object-fit: cover;
+  height: 37px;
+  border-radius: 1px;
+}
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 1201px) {
+  .left {
+    display: none;
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .right {
+    width: fit-content;
+  }
+  .upper,
+  .mid,
+  .down1,
+  .down2 {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 380px) {
+  .upper,
+  .mid,
+  .down1,
+  .down2 {
+    width: 300px;
+  }
+  .upper > img {
+    margin: 30px 51px;
+  }
+
+  .form-reg {
+    margin: 0px 16px;
+    gap: 1px;
+  }
+  .fb {
+    padding: 9px;
+  }
+}

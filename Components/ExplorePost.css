@@ -1,0 +1,140 @@
+.explotre-container {
+  width: calc(100% - 250px);
+  margin-left: 250px;
+  height: 100%;
+  /* height: fit-content; */
+  background-image: linear-gradient(
+    45deg,
+    hsl(240deg 20% 91%) 0%,
+    hsl(247deg 30% 91%) 8%,
+    hsl(254deg 39% 90%) 17%,
+    hsl(261deg 45% 90%) 25%,
+    hsl(268deg 50% 89%) 33%,
+    hsl(276deg 52% 88%) 42%,
+    hsl(285deg 53% 87%) 50%,
+    hsl(294deg 52% 85%) 58%,
+    hsl(303deg 54% 84%) 67%,
+    hsl(311deg 64% 84%) 75%,
+    hsl(318deg 75% 84%) 83%,
+    hsl(323deg 85% 83%) 92%,
+    hsl(328deg 95% 83%) 100%
+  );
+}
+
+.explore-card {
+
+  padding: 10px 13px;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.expl-cards {
+
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+  margin-bottom: 6px;
+  
+
+  
+}
+
+/* .expl-cards { */
+/* width: 300px;
+  min-width:200px ;
+  height: 300px; */
+/* }  */
+/* .exp-card1 {
+  grid-row: span 1;
+
+  border-radius: 23px;
+  overflow: hidden;
+}
+
+.exp-card3 {
+  grid-column-start: 3;
+  grid-row: span 2;
+} */
+
+.expl-cards img {
+  /* object-fit: cover; */
+  
+  width: 100%;
+  height: 100%;
+  /* width: 400px; */
+  /* position: absolute; */
+  /* z-index: -1; */
+  /* object-fit: contain; */
+  object-fit: contain;
+  cursor: pointer;
+}
+.expl-cards:hover {
+  box-shadow: 3px 4px 12px 0px black;
+}
+
+.expl-cards img:hover {
+  scale: 1.01;
+  transition: all ease-in-out 0.5s;
+  /* background-color:rgba(0, 0, 0, 0.421); */
+  /* position: absolute;
+    z-index: 5; */
+  filter: brightness(1.1);
+}
+
+.background-set {
+  width: 100%;
+  height: 300px;
+
+  position: absolute;
+  /* z-index: 100; */
+  cursor: pointer;
+}
+
+.background-set:hover {
+  background-color: rgba(0, 0, 0, 0.438);
+  /* position: absolute; 
+    top: 0;
+    z-index: 3; */
+  background-color: rgba(0, 0, 0, 0.438);
+  position: absolute;
+  z-index: 9;
+}
+/* .expl-cards:hover {
+  background-color: rgba(0, 0, 0, 0.421);
+} */
+.panorama-post {
+  font-size: 2rem;
+  position: absolute;
+  z-index: 2;
+  top: 4%;
+  right: 3%;
+  transform: translate(1%, -7%);
+  color: white;
+}
+
+.loadimg-expl {
+  /* width: 100%; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red;
+  position: absolute; */
+  /* position: fixed; */
+}
+
+
+@media (max-width:1100px) {
+  .explotre-container {
+    width: calc(100% - 97px);
+    margin-left: 95px;
+}
+}
+
+
+@media (max-width: 750px) {
+  .explotre-container {
+      width: calc(100% - 0px);
+      margin-left: 0px;
+  }
+}

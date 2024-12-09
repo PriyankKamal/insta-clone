@@ -1,0 +1,36 @@
+.post-card{
+    /* height: 407px; */
+    width: 417px;
+    border: 2px solid salmon;
+    /* overflow: hidden; */
+}
+
+.post-header{
+    border-bottom: 2px solid slateblue;
+    width: 100%;
+    /* height: 40px; */
+    padding:5px 10px ;
+}
+.post-header img{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.post-card> img{
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+    
+}
+.post-fa-heart{
+    height: 33px;
+    width: 33px;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+.post-content{
+    margin-left: 8px;
+    font-weight: 500;
+    font-size: 15px;
+}
